@@ -46,6 +46,10 @@ public class MainApp extends Application {
     protected Model model;
     protected Config config;
 
+    public MainApp() {
+
+    }
+
     @Override
     public void init() throws Exception {
         logger.info("=============================[ Initializing AddressBook ]===========================");
